@@ -34,9 +34,7 @@ class Productos extends Component {
   }
 }
 
-//state
-const mapStateToProps = state => ({
-  productos: state.productos.productos
-})
-
-export default connect(mapStateToProps, {mostrarProductos})(Productos)
+export default connect(
+  (state) => ({productos: state.productos.productos}), 
+  {mostrarProductos}
+)(Productos)
