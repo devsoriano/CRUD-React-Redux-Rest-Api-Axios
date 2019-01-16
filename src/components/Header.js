@@ -11,7 +11,7 @@ class Header extends Component {
             {'CRUD React, Redux, Rest Api, Axios'}
           </Link>
         </h1>
-        <Link to={'./productos/nuevo'} className="btn btn-danger nuevo-post">
+        <Link to={'/productos/nuevo'} className="btn btn-danger nuevo-post">
           {'Agregar Producto'} &#43;
         </Link>
       </nav>

@@ -24,8 +24,8 @@ class Producto extends Component {
             </span>
           </div>
           <div className="col-md-4 d-flex justify-content-between acciones">
-            <Link to={`productos/editar/${this.props.info.id}`} className="btn btn-primary mr-2">Editar</Link>
-            <button onClick={this.eliminarProducto} type="button" className="btn btn-danger">Borrar</button>
+            <Link to={`productos/editar/${this.props.info.id}`} className="btn btn-primary mr-2">{'Editar'}</Link>
+            <button onClick={this.eliminarProducto} type="button" className="btn btn-danger">{'Borrar'}</button>
           </div>
         </div>
       </li>
